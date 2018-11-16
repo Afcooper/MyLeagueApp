@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark"
+        tools:context=".RivenPage">
+
+    <Button
+            android:id="@+id/riven_abilities_button"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:background="@drawable/rivenabilities"
+            android:text="Abilities"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="35sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" android:layout_marginBottom="8dp"/>
+    <Button
+            android:id="@+id/runes_2018_button"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:background="@drawable/runes"
+            android:text="Runes"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="40sp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/riven_abilities_button"/>
+
+    <Button
+            android:id="@+id/riven_builds_button"
+            android:layout_width="172dp"
+            android:layout_height="175dp"
+            android:background="@drawable/blackcleaver"
+            android:text="Builds"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="40sp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+            android:id="@+id/riven_counters_button"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:background="@drawable/garen"
+            android:text="Counters"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="32sp"
+            android:layout_marginBottom="8dp"
+            android:gravity="fill_horizontal"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"/>
+
+    <Button
+            android:id="@+id/riven_gameplay_button"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:background="@drawable/riven"
+            android:text="GamePlay"
+            android:gravity="bottom"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="32sp"
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginRight="8dp" android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+            android:id="@+id/riven_animation_button"
+            android:layout_width="175dp"
+            android:layout_height="150dp"
+            android:background="@drawable/dawnbringer_riven"
+            android:text="Animation Cancels"
+            android:gravity="bottom"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="30sp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>
