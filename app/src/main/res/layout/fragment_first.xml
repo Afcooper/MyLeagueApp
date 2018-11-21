@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:tools="http://schemas.android.com/tools"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
              tools:context=".FirstFragment">
@@ -9,7 +9,7 @@
     <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="First tab"
-            android:textSize="40sp"/>
+            android:text="Riven's first ability is her Q. She jumps forwards about 1 teemo and does damage. After each jump it procs her passive. The most basic combo is q-auto-q-auto-q-auto"
+            android:textSize="12sp" android:id="@+id/textView"/>
 
-</FrameLayout>
+</android.support.constraint.ConstraintLayout>
