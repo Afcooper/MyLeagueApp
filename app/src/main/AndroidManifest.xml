@@ -22,7 +22,7 @@
         </activity>
         <activity android:name=".RivenPage">
         </activity>
-        <activity android:name=".GamePlay">
+        <activity android:name=".RivenRunesActivity">
         </activity>
     </application>
 

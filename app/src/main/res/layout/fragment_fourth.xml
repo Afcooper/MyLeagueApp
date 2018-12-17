@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <TextView
+            android:text="Riven's E is an abilitiy that gives her a shield based on her AD and the shield at her level. Usually you will want to
+use your shield to activate one of your combos. Your E makes it so you can animation cancel a lot of your abilities so for most combos you will start with E.
+ If you aren't using a combo the best time to use your E is when you are going to take the most damage, or to gap close in or away from the fight. Usually after your
+ E you will want to hit the enemy with an auto before using your next ability to utilize your passive."
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/textView2" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+</android.support.constraint.ConstraintLayout>

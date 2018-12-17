@@ -1,34 +1,43 @@
 package com.guide.leagueoflegends.myleagueapp
 
+import android.support.design.widget.TabLayout
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
 import android.support.v4.app.FragmentPagerAdapter
-
+import com.guide.leagueoflegends.myleagueapp.rivenFragments
 class MyPagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
-
+    companion object {
+        val FragmentList = arrayOf(rivenFragments(FirstFragment(), "Riven's Passive"), rivenFragments(SecondFragment(), "Riven's Q"),rivenFragments(ThirdFragment(), "Riven's W"), rivenFragments(FourthFragment(), "Riven's E"),rivenFragments(FifthFragment(), "Ultimate"))
+    }
     override fun getItem(position: Int): Fragment {
-        return when (position) {
+        return FragmentList.get(position).Fragment
+        /*return when (position) {
             0 -> {
                 FirstFragment()
             }
             1 -> SecondFragment()
-            else -> {
-                return ThirdFragment()
+            2 -> ThirdFragment()
+            3 -> FourthFragment()
+            else ->
+            {
+                return FifthFragment()
             }
-        }
+        }*/
+
     }
 
     override fun getCount(): Int {
-        return 3
+        return FragmentList.size
     }
 
     override fun getPageTitle(position: Int): CharSequence {
-        return when (position) {
+        return FragmentList[position].Title
+       /* return when (position) {
             0 -> "First Tab"
             1 -> "Second Tab"
             else -> {
                 return "Third Tab"
             }
-        }
+        }*/
     }
 }

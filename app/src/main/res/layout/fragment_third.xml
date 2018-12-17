@@ -9,6 +9,8 @@
     <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Third Tab"
+            android:text="Rivne's W is an AOE stun. It doesn't do insane amounts of damage, but when casted with other abilities it can be used to burst.
+Usually I will use w in a e-wq combo, another time i will is using e-q-q-w-q which will keep them stunned for a brief period and do significannt damage. Basically it
+ is a AOE stun around riven so use it whenever a stun is needed or in a combo."
             android:textSize="40sp"/>
 </FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <TextView
+            android:text="Riven's Ultimate ability increases her auto attack damage, gives her free AD, and increases her ability damage, and aoe damage in a slash when casted again.
+ This is riven's strongest ability (which is why it is her ultimate). It increases her AD by a significant margin, which in turn increases the strength of all her abilities since they scale off of AD.
+After 6 you will usually want to take shorter trades to get the enemy lower and then all in with your ultimate. Riven is very weak without her ult after level 6, I wouldn't recommend going all in on
+an opponent if you don't have your ult. You will want to use the second part of your Ult as an execute as it does more damage the lower they are. You can also position it to hit multiple targets. The best time
+ to use your ult is after your combo and with a stun."
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/Fragment_fifth_textview" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+</android.support.constraint.ConstraintLayout>

@@ -9,7 +9,10 @@
     <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Second Tab"
+            android:text="Riven's first ability is her Q. She jumps forwards about 1 teemo and does damage. After each jump it procs her passive. The most basic combo is auto-q-auto-q-auto-q-auto.
+You can use riven's Q to hop over most walls in the game. It has excellent mobility and decent damage. The cooldown of your Q starts to decrease by the time you use the first cast of it. So you can
+delay your q until the other one is about to expire and cast it again, and by the time you cast your final q the CD will either by up or almost up.
+You will want to learn how to fast combo with your Q, the bread and butter of riven. "
             android:textSize="40sp"/>
 
 </FrameLayout>

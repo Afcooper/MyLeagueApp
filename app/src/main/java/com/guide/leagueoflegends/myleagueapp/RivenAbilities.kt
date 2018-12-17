@@ -6,14 +6,14 @@ import android.provider.MediaStore.Video.Thumbnails.VIDEO_ID
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
-import com.google.android.youtube.player.YouTubePlayer
-import com.google.android.youtube.player.YouTubePlayer.OnInitializedListener
-import com.google.android.youtube.player.YouTubePlayerView
+//import com.google.android.youtube.player.YouTubePlayer
+//import com.google.android.youtube.player.YouTubePlayer.OnInitializedListener
+//import com.google.android.youtube.player.YouTubePlayerView
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_riven_abilities.*
-import com.google.android.youtube.*
-import com.google.android.youtube.player.YouTubeBaseActivity
-import com.google.android.youtube.player.YouTubeInitializationResult
+//import com.google.android.youtube.*
+//import com.google.android.youtube.player.YouTubeBaseActivity
+//import com.google.android.youtube.player.YouTubeInitializationResult
 
 class RivenAbilities : AppCompatActivity() {
 

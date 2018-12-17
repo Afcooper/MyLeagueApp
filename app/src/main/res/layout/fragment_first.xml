@@ -9,7 +9,9 @@
     <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Riven's first ability is her Q. She jumps forwards about 1 teemo and does damage. After each jump it procs her passive. The most basic combo is q-auto-q-auto-q-auto"
+            android:text="Riven's passive increases the damage of her Auto-Attack after casting any one of her abilities. Many people commonly believe that riven's abilities are where most of
+her damage comes from. Her damage really mainly comes from her passive, unless you're going the lethality build. You will want to auto after pretty much every single ability that you cast if possible.
+ If you don't auto after your abilities you are going to soon realize you will be doing a lot less damage than you should be. I can't stress how important it is to auto after casting your abilities."
             android:textSize="12sp" android:id="@+id/textView"/>
 
 </android.support.constraint.ConstraintLayout>
