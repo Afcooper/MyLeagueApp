@@ -24,6 +24,8 @@
         </activity>
         <activity android:name=".RivenRunesActivity">
         </activity>
+        <activity android:name=".Riven_Runes_Electrocute">
+        </activity>
     </application>
 
 </manifest>
