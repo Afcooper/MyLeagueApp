@@ -19,12 +19,36 @@
             </intent-filter>
         </activity>
         <activity android:name=".RivenAbilities">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RivenPage"/>
         </activity>
         <activity android:name=".RivenPage">
         </activity>
         <activity android:name=".RivenRunesActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".RivenPage"/>
         </activity>
         <activity android:name=".Riven_Runes_Electrocute">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".RivenRunesActivity"/>
+        </activity>
+        <activity android:name=".CountersActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".RivenPage"/>
+        </activity>
+        <activity android:name=".Counters_Garen">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".CountersActivity"/>
+        </activity>
+        <activity android:name=".riven_builds">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".RivenPage"/>
         </activity>
     </application>
 

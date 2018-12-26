@@ -27,11 +27,11 @@ class RivenPage : AppCompatActivity() {
             startActivity(intent)
         }
         riven_builds_button.setOnClickListener {
-            val intent = Intent(this, RivenPage::class.java)
+            val intent = Intent(this, riven_builds::class.java)
             startActivity(intent)
         }
         riven_counters_button.setOnClickListener {
-            val intent = Intent(this, RivenPage::class.java)
+            val intent = Intent(this, CountersActivity::class.java)
             startActivity(intent)
         }
         riven_gameplay_button.setOnClickListener {
