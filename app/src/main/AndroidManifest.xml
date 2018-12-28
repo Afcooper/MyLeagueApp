@@ -20,8 +20,8 @@
         </activity>
         <activity android:name=".RivenAbilities">
             <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".RivenPage"/>
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".RivenPage"/>
         </activity>
         <activity android:name=".RivenPage">
         </activity>
@@ -40,6 +40,7 @@
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value=".RivenPage"/>
         </activity>
+        <activity android:name=".Riven_Runes_Predator"/>
         <activity android:name=".Counters_Garen">
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
@@ -49,6 +50,11 @@
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value=".RivenPage"/>
+        </activity>
+        <activity android:name=".BasicBuild"/>
+        <activity android:name=".Lethality"/>
+        <activity android:name=".AdrianBuild"/>
+        <activity android:name=".Counters_Champion_Activity">
         </activity>
     </application>
 

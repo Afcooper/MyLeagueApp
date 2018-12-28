@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                 xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                 xmlns:tools="http://schemas.android.com/tools"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="match_parent"
+    >
+
+
+        <View
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                android:id="@+id/_divider_4"
+                android:background="@android:color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/riven_builds_lethality_corebuild_duskblade"/>
+        <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp" app:srcCompat="@drawable/potion"
+                app:layout_constraintTop_toBottomOf="@+id/riven_builds_lethality_startingbuild_textview"
+                android:layout_marginTop="8dp"
+                android:id="@+id/riven_builds_adrianbuild_startingbuild_potion3"
+                app:layout_constraintStart_toEndOf="@+id/riven_builds_lethality_startingbuild_potion2"
+                android:layout_marginLeft="24dp" android:layout_marginStart="24dp"/>
+        <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp" app:srcCompat="@drawable/potion"
+                android:id="@+id/riven_builds_adrianbuild_startingbuild_potion4"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+                app:layout_constraintHorizontal_bias="0.75" app:layout_constraintTop_toBottomOf="@+id/_divider_1"
+                android:layout_marginTop="8dp"/>
+        <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp" app:srcCompat="@drawable/potion"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/riven_builds_lethality_startingbuild_textview"
+                app:layout_constraintStart_toEndOf="@+id/riven_builds_lethality_startingbuild_potion1"
+                android:id="@+id/riven_builds_lethality_startingbuild_potion2" android:layout_marginLeft="24dp"
+                android:layout_marginStart="24dp"/>
+        <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp" app:srcCompat="@drawable/longsword"
+                android:id="@+id/riven_builds_lethality_longsword"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="32dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/riven_builds_lethality_startingbuild_textview"/>
+        <TextView
+                android:text="Starting Build"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/riven_builds_lethality_startingbuild_textview" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp" android:textColor="@android:color/black" android:textSize="30sp"
+                android:textStyle="bold" android:textAllCaps="true"/>
+        <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp" app:srcCompat="@drawable/potion"
+                android:id="@+id/riven_builds_lethality_startingbuild_potion1"
+                app:layout_constraintStart_toEndOf="@+id/riven_builds_lethality_longsword"
+                android:layout_marginLeft="24dp" android:layout_marginStart="24dp" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/riven_builds_lethality_startingbuild_textview"/>
+        <View
+                android:layout_width="0dp"
+                android:layout_height="5sp"
+                android:id="@+id/_divider_1" android:layout_marginTop="8dp"
+                android:background="@android:color/black"
+                app:layout_constraintTop_toBottomOf="@+id/riven_builds_lethality_longsword"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+        />
+        <View
+                android:layout_width="0dp"
+                android:layout_height="5sp"
+                android:id="@+id/_divider_5"
+                android:background="@android:color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintTop_toBottomOf="@+id/riven_builds_lethality_bonusitems_tiamat"
+                android:layout_marginTop="8dp"/>
+        <View
+                android:layout_width="0dp"
+                android:layout_height="5sp"
+                android:id="@+id/_divider_3"
+                android:background="@android:color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintHorizontal_bias="0.0" app:layout_constraintTop_toBottomOf="@+id/riven_builds_lethality_corebuild_ionian"
+                android:layout_marginTop="8dp"/>
+        <View
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                android:id="@+id/_divider_first2"
+                android:background="@android:color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintTop_toBottomOf="@+id/riven_builds_lethality_startingbuild_doranshield"
+                android:layout_marginTop="8dp"/>
+        <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp" app:srcCompat="@drawable/doranshield"
+                android:id="@+id/riven_builds_lethality_startingbuild_doranshield"
+                app:layout_constraintTop_toBottomOf="@+id/_divider_1" android:layout_marginTop="8dp"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp" app:layout_constraintHorizontal_bias="0.25"/>
+        <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp" app:srcCompat="@drawable/bfsword"
+                android:id="@+id/riven_builds_lethality_corebuild_dirk"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/riven_builds_lethality_corebuild_textview" android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp" android:layout_marginStart="10dp"/>
+        <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp" app:srcCompat="@drawable/rightarrow"
+                android:id="@+id/imageView4"
+                app:layout_constraintStart_toEndOf="@+id/riven_builds_lethality_corebuild_dirk" android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp" app:layout_constraintTop_toBottomOf="@+id/riven_builds_lethality_corebuild_textview"
+                android:layout_marginTop="8dp"/>
+        <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp" app:srcCompat="@drawable/ionian"
+                android:id="@+id/riven_builds_lethality_corebuild_ionian"
+                app:layout_constraintStart_toEndOf="@+id/imageView4" android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp" app:layout_constraintTop_toBottomOf="@+id/riven_builds_lethality_corebuild_textview"
+                android:layout_marginTop="8dp"/>
+        <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp" app:srcCompat="@drawable/rightarrow"
+                android:id="@+id/imageView6"
+                app:layout_constraintTop_toBottomOf="@+id/riven_builds_lethality_corebuild_textview" android:layout_marginTop="8dp"
+                app:layout_constraintStart_toEndOf="@+id/riven_builds_lethality_corebuild_ionian" android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"/>
+        <TextView
+                android:text="Core Build"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/riven_builds_lethality_corebuild_textview" android:textSize="30sp"
+                android:textStyle="bold" android:textColor="@android:color/black" android:layout_marginEnd="8dp"
+                app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp" android:layout_marginStart="8dp"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/_divider_first2"/>
+        <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp" app:srcCompat="@drawable/essencereaver"
+                android:id="@+id/riven_builds_adrianbuild_corebuild_essencereaver"
+                app:layout_constraintStart_toEndOf="@+id/imageView6" android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp" app:layout_constraintTop_toBottomOf="@+id/riven_builds_lethality_corebuild_textview"
+                android:layout_marginTop="8dp"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/storm"
+                android:id="@+id/riven_builds_lethality_corebuild_duskblade" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/_divider_3"
+                app:layout_constraintStart_toEndOf="@+id/imageView10" android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"/>
+        <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp" app:srcCompat="@drawable/rightarrow"
+                android:id="@+id/imageView10"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/_divider_3" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="10dp" android:layout_marginStart="10dp"/>
+        <TextView
+                android:text="Bonus Items"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/riven_builds_adrianbuild_bonusitems_textview"
+                app:layout_constraintStart_toEndOf="@+id/riven_builds_lethality_corebuild_duskblade"
+                android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/_divider_3" android:layout_marginTop="8dp"
+                android:textSize="40sp" android:textColor="@android:color/black"
+                android:textStyle="bold" android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="@+id/riven_builds_lethality_corebuild_duskblade"/>
+        <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp" app:srcCompat="@drawable/youmuu"
+                android:id="@+id/riven_builds_lethality_bonusitems_edgeofnight" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="10dp" android:layout_marginStart="10dp" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/_divider_4"/>
+        <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp" app:srcCompat="@drawable/duskblade"
+                android:id="@+id/riven_builds_lethality_bonusitems_stormrazor" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/_divider_4"
+                app:layout_constraintStart_toEndOf="@+id/riven_builds_lethality_bonusitems_edgeofnight"
+                android:layout_marginLeft="16dp" android:layout_marginStart="16dp"/>
+        <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp" app:srcCompat="@drawable/tiamat"
+                android:id="@+id/riven_builds_lethality_bonusitems_tiamat"
+                app:layout_constraintStart_toEndOf="@+id/riven_builds_lethality_bonusitems_stormrazor"
+                android:layout_marginLeft="16dp" android:layout_marginStart="16dp" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/_divider_4"/>
+        <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp" app:srcCompat="@drawable/deathsdance"
+                android:id="@+id/riven_builds_lethality_bonusitems_deathsdance"
+                app:layout_constraintStart_toEndOf="@+id/riven_builds_lethality_bonusitems_tiamat"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/_divider_4"/>
+        <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp" app:srcCompat="@drawable/lastwhisper"
+                android:id="@+id/riven_builds_adrianbuild_bonusitems_lastwhisperer"
+                app:layout_constraintStart_toEndOf="@+id/riven_builds_lethality_bonusitems_deathsdance"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                app:layout_constraintTop_toBottomOf="@+id/_divider_4" android:layout_marginTop="8dp"/>
+        <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp" app:srcCompat="@drawable/edgeofnight"
+                android:id="@+id/riven_builds_lethality_bonusitems_mercurial"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp" app:layout_constraintTop_toBottomOf="@+id/_divider_5"
+                android:layout_marginTop="8dp" app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="8dp"/>
+        <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp" app:srcCompat="@drawable/merctreads"
+                android:id="@+id/riven_builds_lethality_bonusitems_essencereaver"
+                app:layout_constraintTop_toBottomOf="@+id/_divider_5"
+                app:layout_constraintStart_toEndOf="@+id/riven_builds_lethality_bonusitems_mercurial"
+                android:layout_marginLeft="16dp" android:layout_marginStart="16dp" android:layout_marginTop="8dp"/>
+        <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp" app:srcCompat="@drawable/sterak"
+                android:id="@+id/riven_builds_lethality_bonusitems_steraks"
+                app:layout_constraintTop_toBottomOf="@+id/_divider_5"
+                app:layout_constraintStart_toEndOf="@+id/riven_builds_lethality_bonusitems_essencereaver"
+                android:layout_marginLeft="16dp" android:layout_marginStart="16dp" android:layout_marginTop="8dp"/>
+        <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp" app:srcCompat="@drawable/ninjatabi"
+                android:id="@+id/riven_builds_lethality_bonusitems_maw"
+                app:layout_constraintStart_toEndOf="@+id/riven_builds_lethality_bonusitems_steraks"
+                android:layout_marginLeft="16dp" android:layout_marginStart="16dp"
+                app:layout_constraintTop_toBottomOf="@+id/_divider_5" android:layout_marginTop="8dp"/>
+        <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp" app:srcCompat="@drawable/guardianangel"
+                android:id="@+id/riven_builds_adrianbuild_bonusitems_guardianangel"
+                app:layout_constraintStart_toEndOf="@+id/riven_builds_lethality_bonusitems_maw"
+                android:layout_marginLeft="16dp" android:layout_marginStart="16dp"
+                app:layout_constraintTop_toTopOf="@+id/riven_builds_lethality_bonusitems_steraks"/>
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
