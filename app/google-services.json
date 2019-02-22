@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "184315351519",
+    "firebase_url": "https://leagueapp-f55fb.firebaseio.com",
+    "project_id": "leagueapp-f55fb",
+    "storage_bucket": "leagueapp-f55fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184315351519:android:0dafe6471ddccdad",
+        "android_client_info": {
+          "package_name": "com.guide.leagueoflegends.myleagueapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184315351519-77677pg0qmv0e1u67tugsake8bd1hqah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmAJUQNmuk_A6jsrjpMIYUgFzbRHOCMxs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

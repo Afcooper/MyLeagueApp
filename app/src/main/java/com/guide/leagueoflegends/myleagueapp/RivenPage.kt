@@ -35,7 +35,7 @@ class RivenPage : AppCompatActivity() {
             startActivity(intent)
         }
         riven_gameplay_button.setOnClickListener {
-            val intent = Intent(this, RivenPage::class.java)
+            val intent = Intent(this, RivenGameplay::class.java)
             startActivity(intent)
         }
         runes_2018_button.setOnClickListener {

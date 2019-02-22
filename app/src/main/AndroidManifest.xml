@@ -3,6 +3,7 @@
           package="com.guide.leagueoflegends.myleagueapp">
 
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
             android:allowBackup="true"
@@ -11,7 +12,7 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".RivenPage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -23,7 +24,7 @@
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value=".RivenPage"/>
         </activity>
-        <activity android:name=".RivenPage">
+        <activity android:name=".MainActivity">
         </activity>
         <activity android:name=".RivenRunesActivity">
             <meta-data
@@ -55,6 +56,12 @@
         <activity android:name=".Lethality"/>
         <activity android:name=".AdrianBuild"/>
         <activity android:name=".Counters_Champion_Activity">
+        </activity>
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".RivenGameplay">
+        </activity>
+        <activity android:name=".RivenVideoDetailActivity">
+
         </activity>
     </application>
 
