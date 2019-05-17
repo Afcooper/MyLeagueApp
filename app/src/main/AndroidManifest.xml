@@ -59,9 +59,19 @@
         </activity>
         <activity android:name=".LoginActivity"/>
         <activity android:name=".RivenGameplay">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RivenPage"/>
         </activity>
         <activity android:name=".RivenVideoDetailActivity">
-
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RivenGameplay"/>
+        </activity>
+        <activity android:name=".RivenYoutubeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RivenVideoDetailActivity"/>
         </activity>
     </application>
 

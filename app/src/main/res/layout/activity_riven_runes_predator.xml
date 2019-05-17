@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <TextView
+            android:text="This is the predator riven build. First three are not interchangable except maybe zombie ward. I like to go zombie ward though because ingenious hunter reduces duskblade and sweeper which makes it very easy to get a bunch of zombie wards. Second tier transcendence is always nice and I recommend waterwalking because you will be ganking with predator a lot. The stats I recommend AF, AF, Any."
+            android:layout_height="wrap_content"
+            android:id="@+id/riven_runes_predator_textview"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_width="0dp"
+            android:textColor="@android:color/black"/>
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp" app:srcCompat="@drawable/predatorriven"
+            android:id="@+id/riven_runes_predator_image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/riven_runes_predator_textview"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"/>
+</android.support.constraint.ConstraintLayout>
